@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  margin: 2% 35%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.imgModal {
+  position: relative;
+  z-index: 5;
+  width: 30%;
+  margin: 5% 35%;
+  padding: 20px;
+  background: #fff;
+}
+.imgModalWrapper {
+  display: block;
+  padding-right: 16px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  opacity: 1;
+}
+.modalOverlay {
+  opacity: 0.6;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  right: 0;
+  background: #000;
+}
+.closeBtn {
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+label {
+  margin-right: 10px;
+  width: 20%;
+  display: inline-block;
+}
+.submitButton {
+  padding: 10px;
+  width: 20%;
+  margin-top: 10px;
+  background: black;
+  color: white;
+}
+input {
+  padding: 5px 10px;
+}
+.textWrapper {
+  margin-bottom: 10px;
+}
+.edit {
+  background: #645b5b;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 9px;
+  padding: 3px 5px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+.delete {
+  margin-right: 5px;
+  background: red;
+  border: none;
+  padding: 3px 5px;
+  font-size: 9px;
+  color: white;
+}
+.search {
+  padding: 5px;
+  margin-left: 5px;
+  background: #4242e3;
+  border: solid 2px #4242e3;
+  cursor: pointer;
+}
