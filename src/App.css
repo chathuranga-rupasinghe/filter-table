@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin: 2% 35%;
+  margin: 2% 30%;
 }
 
 .App-logo {
@@ -116,4 +116,34 @@ input {
   background: #4242e3;
   border: solid 2px #4242e3;
   cursor: pointer;
+}
+.success {
+  color: rgb(45, 185, 45);
+}
+.error {
+  color: rgb(177, 13, 13);
+}
+.csvUpload {
+  cursor: pointer;
+  color: blue;
+  margin-bottom: 10px;
+}
+.minSalary {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.maxSalary {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+th {
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.trHeader {
+  background: "#9dc2bd";
 }
